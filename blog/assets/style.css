@@ -1,0 +1,261 @@
+body{
+    max-width: 1500px;
+}
+
+nav{
+    max-width: 1500px;
+
+}
+
+main{
+    max-width: 1500px;
+}
+.container{
+
+    max-width: 1500px;
+}
+.monarch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(141 177 171);
+    background-color: rgb(141 177 171);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arc{
+    color: rgb(141 177 171);
+}
+
+.menu ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 45px;
+}
+.menu li:hover{
+    cursor: pointer;
+    color:rgb(141 177 171);
+}
+.blog{
+    color:rgb(141 177 171) ;
+}
+
+.main{
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+.main img{
+    width: 100%;
+    height: 400px;
+}
+
+.picture{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.picture img{position: relative;
+
+}
+.write{
+    color: white;
+    z-index: 2;
+    position: absolute;
+    font-size: 30px;
+}
+
+.bl:hover{
+    color:rgb(141 177 171) ;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+.card{
+    max-width: 268px;
+    min-height: 368px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.cont{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px;
+    margin-left: 60px;
+}
+
+@media screen and (max-width: 1200px) {
+    .cont {
+display: grid;
+        grid-template-columns: auto auto auto;
+        place-content: center;
+      
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    .cont {
+display: grid;
+        grid-template-columns: auto auto ;
+        place-content: center;
+      
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .cont {
+display: grid;
+        grid-template-columns: auto  ;
+        place-content: center;
+      
+    }
+  }
+
+ 
+
+.card{
+    width: 325px;
+     height: 119px;
+     position: relative;
+     
+     
+ }
+ .card img{
+     width: 325px;
+     height: 40%;
+     
+     
+ }
+
+ .cardwrite{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+    margin-top: 3%;
+
+ }
+
+ .cardwrite p{
+    color: rgba(142, 139, 139, 0.685);
+ }
+
+ .cardwrite h3:hover{
+    color: rgb(141 177 171);
+    cursor: pointer;
+    transition: 500ms;
+ }
+
+ .down{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 7%;
+ }
+
+ .slide{
+    border: 1px solid rgba(128, 128, 128, 0.258);
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .slide1{
+    border: 1px solid rgba(128, 128, 128, 0.258);
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    color: black;
+    background-color: rgb(141 177 171);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .slide:hover{
+    background-color: rgb(141 177 171);
+    cursor: pointer;
+    transition: 500ms;
+ }
+
+ .footer{
+    max-width: 100%;
+}
+.foot{
+    margin-left: 10%;
+}
+.foot p{
+    font-size: 20px;
+}
+.foot h3{
+    font-size: 30px;
+}
+.foott{
+    margin-left: 60%;
+    max-width: 300px;
+    margin-top: -12%;
+}
+
+
+
+  @media screen and (max-width: 1000px) {
+    .foott {
+
+        margin-left: 60%;
+        max-width: 300px;
+        margin-top: -5%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .foott {
+
+        margin-left: 10%;
+        max-width: 300px;
+        margin-top: 5%;
+    }
+  }
+.you{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.ico{
+    width: 30px;
+    height: 30px;
+    border: 1px solid grey;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ic{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+
+.bitti{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    height: 150px;
+}

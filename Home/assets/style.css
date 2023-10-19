@@ -1,6 +1,18 @@
+body{
+    max-width: 1500px;
+}
+
+nav{
+    max-width: 1500px;
+
+}
+
+main{
+    max-width: 1500px;
+}
 .container{
 
-    max-width: 100%;
+    max-width: 1500px;
 }
 .monarch{
     display: flex;
@@ -37,27 +49,55 @@
     color:rgb(141 177 171) ;
 }
 .container{
-  width: 90%;
+  max-width: 90%;
   margin: 0 3%;
 }
 .main{
- 
+    
     display: grid;
     grid-template-columns: auto auto auto auto; 
     gap: 10px;
-    
+    max-width: 1500px;
+    margin-left: 3%;
 }
-   
+ 
+@media screen and (max-width: 1400px) {
+    .main {
+
+        display: grid;
+        grid-template-columns: auto auto auto;
+        place-content: center;
+    }
+  }
+
+  @media screen and (max-width: 1031px) {
+    .main {
+
+        display: grid;
+        grid-template-columns: auto auto ;
+        place-content: center;
+    }
+  }
+
+  @media screen and (max-width: 680px) {
+    .main {
+
+        display: grid;
+        grid-template-columns: auto  ;
+        place-content: center;
+    }
+  }
 
 
 .image{
-    width: 448px;
-    height: 219px;
+   width: 325px;
+    height: 119px;
     position: relative;
+    
     
 }
 .image img{
-    width: 100%;
+    width: 325px;
     height: 100%;
     
     
@@ -65,11 +105,11 @@
 
 .im{
     width:100%;
-    height: 100%;
+    min-height: 100%;
     background-color: rgba(0, 0, 0, 0.479);
     position: absolute;
     z-index: 2;
-    margin-top: -50%;
+    margin-top: -38%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,7 +130,7 @@ cursor: pointer;
 }
 
 .footer{
-    width: 100%;
+    max-width: 100%;
 }
 .foot{
     margin-left: 10%;
@@ -101,7 +141,34 @@ cursor: pointer;
 .foot h3{
     font-size: 30px;
 }
+.foott{
+    margin-left: 60%;
+    max-width: 300px;
+    margin-top: -12%;
+}
 
+@media screen and (max-width: 1000px) {
+    .foott {
+
+        margin-left: 60%;
+        max-width: 300px;
+        margin-top: -5%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .foott {
+
+        margin-left: 10%;
+        max-width: 300px;
+        margin-top: 5%;
+    }
+  }
+.you{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
 .ico{
     width: 30px;
     height: 30px;
@@ -117,35 +184,7 @@ cursor: pointer;
     gap: 8px;
 }
 
-div .foott h3{
-    display: flex;
-    justify-content: end;
-    margin-top: -175px;
-    font-size: 30px;
-    margin-right: 800px;
-}
 
-.fo{
-    display: flex;
-    justify-content: end;
-    margin-right: 870px;
-    font-size: 20px;
-}
-
-.foott span{
-    display: flex;
-    justify-content: end;
-    margin-right: 670px;
-    font-size: 20px;
-    margin-top: -228px;
-}
-.foo{
-    display: flex;
-    justify-content: end;
-    margin-right: 450px;
-    font-size: 20px;
-    margin-top: -228px;
-}
 
 .bitti{
     display: flex;
